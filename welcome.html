@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(image.gif);
+            
+        }
+
+        .container {
+            text-align: center;
+            padding: 100px;
+            
+        }
+
+        .welcome-text {
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .description {
+            font-size: 24px;
+            margin-bottom: 40px;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .btn {
+            background-color: #444;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: fadeInUp 2s ease-in-out;
+        }
+        .description-box {
+            border: 1px solid black;
+            padding: 50px;
+            margin: 20px;
+            animation: fadeInUp 2s ease-in-out;
+            background-color: rgba(45, 52, 59, 0.7);
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="welcome-text">Welcome to Our Website</h1>
+        <p class="description">Explore our amazing features and services.</p>
+        <button class="btn">Get Started</button>
+    </div>
+
+    <div class="description-box"> 
+        <h2>Product Description</h2>
+        <p>This is a description of the product. You can add more details here. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolorem suscipit? Qui alias, ex culpa odio magnam commodi nam <br>
+            recusandae provident quae ea est eius ut voluptates quod. Totam, harum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae deserunt nobis corrupti obcaecati officiis omnis quod sapiente voluptas <br>
+            nostrum id molestias, incidunt earum temporibus tempora autem odio molestiae voluptates sunt.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illum nesciunt <br>
+            repudiandae, est corporis porro recusandae, nostrum maxime sit voluptatibus inventore, quam architecto atque ut molestias culpa minima. Facilis, quibusdam.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Excepturi quasi molestiae dolor deleniti necessitatibus repellat a nesciunt accusantium id ratione, obcaecati, incidunt delectus possimus. Voluptate voluptatem dolores iste perferendis ratione.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, asperiores deleniti, <br>
+            id aliquid a vero enim in at hic voluptatum obcaecati dolores est placeat minima distinctio deserunt repellendus expedita corporis.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quos ducimus vel laborum fugiat obcaecati culpa quae voluptas facilis at laudantium sed, dignissimos, exercitationem quisquam similique eum enim nam consequuntur.<br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nesciunt error consequuntur veniam. Id exercitationem numquam deleniti architecto ut soluta labore quod. Et, nulla provident repellat ex labore veniam perspiciatis?<br>
+        </p>
+        
+    </div>
+
+    
+
+
+    <script>
+        const button = document.querySelector('.btn');
+
+        button.addEventListener('click', () => {
+            window.location.href = 'page.html';
+        });
+    </script>
+</body>
+
+</html>
